@@ -33,7 +33,10 @@
 .page_content,
 .page-content {
   padding-top: 70px;
-  @media (min-width: 1440px) {
+  @include xl {
+    padding-top: 140px;
+  }
+  @include xxl {
     padding-top: 230px;
   }
 }
