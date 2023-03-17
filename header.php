@@ -19,9 +19,10 @@ if ( ! defined( 'ABSPATH' ) ) {
     <?php $viewport_content = apply_filters( 'hello_elementor_viewport_content', 'width=device-width, initial-scale=1' ); ?>
     <meta name="viewport" content="<?php echo esc_attr( $viewport_content ); ?>">
     <link rel="profile" href="https://gmpg.org/xfn/11">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.0/slicknav.min.css"
+
+    <!-- <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.0/slicknav.min.css"
         integrity="sha512-MVXhwgzug/vd2/6CjhEI2KY7Hl60+LM3alGwzQAnlOifbQqEbiUb8nfQHonBMDJUT8J/AT6xoWv07G96TL7fFQ=="
-        crossorigin="anonymous" referrerpolicy="no-referrer" />
+        crossorigin="anonymous" referrerpolicy="no-referrer" /> -->
 
     <!-- jquery  -->
     <script src="https://code.jquery.com/jquery-3.6.3.min.js"
@@ -43,13 +44,10 @@ if ( ! defined( 'ABSPATH' ) ) {
         href="<?php echo get_home_url(); ?>/app/themes/assets/favicon/favicon-32x32.png">
     <link rel="icon" type="image/png" sizes="16x16"
         href="<?php echo get_home_url(); ?>/app/themes/assets/favicon/favicon-16x16.png">
-    <link rel="manifest"
-        href="<?php echo get_home_url(); ?>/app/themes/assets/favicon/site.webmanifest">
-    <link rel="mask-icon"
-        href="<?php echo get_home_url(); ?>/app/themes/assets/favicon/safari-pinned-tab.svg"
+    <link rel="manifest" href="<?php echo get_home_url(); ?>/app/themes/assets/favicon/site.webmanifest">
+    <link rel="mask-icon" href="<?php echo get_home_url(); ?>/app/themes/assets/favicon/safari-pinned-tab.svg"
         color="#5bbad5">
-    <link rel="shortcut icon"
-        href="<?php echo get_home_url(); ?>/app/themes/assets/favicon/favicon.ico">
+    <link rel="shortcut icon" href="<?php echo get_home_url(); ?>/app/themes/assets/favicon/favicon.ico">
     <meta name="msapplication-TileColor" content="#da532c">
     <meta name="msapplication-config"
         content="<?php echo get_home_url(); ?>/app/themes/assets/favicon/browserconfig.xml">

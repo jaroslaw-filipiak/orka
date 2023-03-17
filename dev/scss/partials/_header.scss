@@ -77,6 +77,14 @@
   @include xl {
     display: none;
   }
+
+  ul {
+    height: calc(100vh - 39px);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+  }
 }
 
 .a.slicknav_btn {

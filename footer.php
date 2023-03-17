@@ -44,9 +44,10 @@ if ( ! defined( 'ABSPATH' ) ) {
     <div id="video" class="vimeo_container"></div>
     <div class="close"></div>
 </div>
-<script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.0/jquery.slicknav.min.js"
+<!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/SlickNav/1.0.0/jquery.slicknav.min.js"
     integrity="sha512-9I/r/FKSSM9BN2CSYwWY1psDPVBLN+ygCmtUjzNdyVpD96xVDTuRv1wyMkTGMWGBAAlgSAYZygVBz0Wsp6B1nQ=="
-    crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+    crossorigin="anonymous" referrerpolicy="no-referrer"></script> -->
+
 <script>
 window.addEventListener('DOMContentLoaded', (event) => {
 
