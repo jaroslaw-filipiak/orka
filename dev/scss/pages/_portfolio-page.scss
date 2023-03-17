@@ -1,0 +1,323 @@
+//PORTFOLIO PAGE
+
+body.page-id-16,
+body.page-id-104 {
+  background-color: #000 !important;
+
+  #orka-header {
+    padding: 0;
+    .elementor-nav-menu--dropdown {
+      background-color: transparent !important;
+      font-size: 13px;
+    }
+
+    .e-con-inner {
+      padding-top: 0px;
+      padding-bottom: 0px;
+    }
+
+    a {
+      color: #fff;
+    }
+    .elementor-item:after {
+      background-color: #fff !important;
+    }
+  }
+
+  #orka-portfolio-header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    z-index: 5;
+    width: 100%;
+    transition: 0.15s all ease-in-out;
+    background: rgb(0, 0, 0);
+  }
+
+  .portfolio header {
+    background: black;
+  }
+
+  /* PORTFOLIO PAGE */
+
+  .cats {
+    font-family: 'Noble Mission 443';
+    z-index: 3;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    color: white;
+    margin: 0;
+    padding: 25px 0;
+    list-style: none;
+    @media (min-width: 1400px) {
+      justify-content: flex-end;
+    }
+
+    &--filter {
+      cursor: pointer;
+      padding: 12px 12px;
+
+      &:hover {
+        background: rgba(255, 255, 255, 0.3);
+        transition: 0.25s all cubic-bezier(0.47, 0, 0, 1);
+      }
+    }
+  }
+
+  .cats-portfolio {
+    font-family: 'Noble Mission 443';
+    z-index: 3;
+    background: transparent;
+    display: flex;
+    flex-wrap: wrap;
+    align-items: center;
+    justify-content: center;
+    font-size: 22px;
+    letter-spacing: 0.05em;
+    color: white;
+    margin: 0;
+
+    list-style: none;
+    @media (min-width: 1400px) {
+      justify-content: flex-end;
+    }
+  }
+  .sticky .cats-portfolio {
+    position: fixed;
+    top: 80px;
+  }
+  .cats-portfolio:before {
+    content: 'filters:';
+    margin-right: 24px;
+  }
+  .cats-portfolio li:last-child {
+    margin-right: 0;
+  }
+
+  .sticky .cats {
+    position: fixed;
+    top: 80px;
+  }
+  .cats:before {
+    content: 'filters:';
+    margin-right: 24px;
+  }
+  .cats li:last-child {
+    margin-right: 0;
+  }
+  .cat {
+    margin: 0 10px;
+    list-style: none;
+  }
+  .cat a {
+    display: block;
+    color: white;
+    padding: 12px 12px;
+    background: transparent;
+    text-transform: lowercase;
+  }
+  .cat.active a {
+    background: rgba(255, 255, 255, 0.3);
+  }
+  .projects_container {
+    margin: 0 auto;
+    @include xl {
+      padding: 150px 0px 0px 0px;
+    }
+    @include xxl {
+      padding: 220px 0px 0px 0px;
+    }
+  }
+  .portfolio {
+    background: black;
+    color: white;
+  }
+  .portfolio figure,
+  .figure {
+    background: #333;
+  }
+
+  #orka-portfolio-header .menu_trigger {
+    border-color: white;
+  }
+  #orka-portfolio-header .orka_symbol {
+    background: white;
+  }
+  #orka-portfolio-header .orka_txt {
+    filter: none;
+  }
+  #orka-portfolio-header .social_icons img {
+    filter: invert(1);
+    -webkit-filter: invert(1);
+  }
+
+  #orka-portfolio-header ul li a {
+    color: #fff !important;
+  }
+
+  #orka-portfolio-header ul li {
+    .elementor-item:after {
+      background-color: #fff !important;
+    }
+  }
+
+  .projects {
+    margin-bottom: 80px;
+    transition: 0.5s all cubic-bezier(0.47, 0, 0, 1);
+    padding: 0;
+  }
+  .project_asset {
+    width: 156px;
+
+    @include sm {
+      width: 220px;
+    }
+
+    @include lg {
+      width: 256px;
+    }
+
+    @include xl {
+      width: 329px;
+    }
+
+    @include xxl {
+      width: 350px;
+    }
+  }
+  .project_asset .link {
+    position: relative;
+    display: block;
+  }
+  .project_asset img {
+    height: 100%;
+  }
+  .project_title {
+    position: absolute;
+    width: 100%;
+    text-align: right;
+    padding: 0 25px 18px 25px;
+    z-index: 2;
+    bottom: 25px;
+    left: 0;
+    color: white;
+    opacity: 0;
+    @include lg {
+      bottom: 0;
+    }
+  }
+  .project_asset a:hover img {
+    filter: contrast(1.1) brightness(1.1) grayscale(0.8);
+  }
+
+  .project_asset a:hover:after {
+    opacity: 0.6;
+  }
+  .project_asset a:hover .project_title {
+    opacity: 1;
+  }
+  .project_title,
+  .project_asset a:after,
+  .project_asset img.loaded,
+  .cat a {
+    transition: all 0.5s cubic-bezier(0.2, 0.6, 0.5, 1);
+  }
+  .project_asset a:after {
+    content: '';
+    position: absolute;
+    display: block;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    opacity: 0;
+    z-index: 0;
+  }
+  .project_title h2 {
+    font-size: 20px;
+    line-height: 1.2;
+  }
+  .project_title h2 span {
+    font-size: 20px;
+    font-family: 'Noble Mission 443';
+  }
+  .portfolio_txt {
+    font-size: 20px;
+    line-height: 1.45;
+    margin: 80px 0 20px;
+    font-family: 'Noble Mission 443';
+    text-align: justify;
+  }
+
+  .site_nav .orka_symbol {
+    background: white;
+    transition: none;
+  }
+
+  .site_nav a {
+    transition: none;
+  }
+
+  .site_nav img.orka_txt {
+    filter: none !important;
+  }
+}
+
+/*======================*/
+
+.shuffle-filter {
+  margin: 0 auto;
+  text-align: center;
+}
+.shuffle-filter li {
+  display: inline-block;
+  padding: 10px;
+  cursor: pointer;
+}
+.selected {
+  text-decoration: underline;
+}
+
+.shuffle-container {
+  min-height: 500px;
+}
+
+// PORTFOLIO PAGE AFTER SCROLLED HEADER
+
+.portfolio header {
+  background: black;
+}
+
+.scrolled #orka-portfolio-header {
+  height: auto;
+  padding: 15px 0 15px !important;
+}
+
+.scrolled #orka-portfolio-header h1 {
+  font-size: 20px;
+  margin-top: 26px;
+}
+
+.scrolled #orka-portfolio-header h1 {
+  font-size: 15px;
+  margin-top: 0;
+}
+
+.scrolled #orka-portfolio-header {
+  height: auto;
+  padding: 15px 0 15px;
+}
+
+.scrolled #orka-portfolio-header {
+  background: #000;
+  padding: 0;
+}
+
+.scrolled .page_content .cats {
+  visibility: hidden;
+}

@@ -1,0 +1,87 @@
+@import './scss/rwd';
+
+@import './scss/partials/header';
+@import './scss/partials/footer';
+
+@import './scss/pages/home-page';
+@import './scss/pages/news-page';
+@import './scss/pages/portfolio-page';
+@import './scss/pages/supervisors-page';
+
+.page-id-16,
+.page-id-104 {
+  background-color: #000;
+
+  .orka-loop--title {
+    .elementor-heading-title {
+      font-size: 20px;
+      line-height: 1.2;
+      color: #fff;
+      font-family: 'Noble Mission 443' !important;
+    }
+  }
+
+  .orka-loop--subtitle {
+    .elementor-post-info__item--type-custom {
+      color: #fff;
+      font-size: 20px;
+      font-family: 'Noble Mission 443' !important;
+    }
+  }
+}
+
+.page_content,
+.page-content {
+  padding-top: 70px;
+  @media (min-width: 1440px) {
+    padding-top: 230px;
+  }
+}
+
+.home--lang-switcher {
+  ul {
+    width: 100vw;
+    height: 200px;
+    position: fixed;
+    left: 0;
+    top: 0;
+    display: flex;
+    align-items: center;
+    justify-content: flex-end;
+    padding-right: 60px;
+  }
+
+  ul li a {
+    text-transform: uppercase !important;
+    font-size: 16px;
+
+    &::after {
+      background-color: transparent !important;
+    }
+
+    &:hover {
+      background-color: transparent !important;
+      &::after {
+        background-color: transparent !important;
+      }
+    }
+  }
+}
+
+.d-none {
+  display: none !important;
+}
+
+.preloader {
+  width: 100vw;
+  height: 100vh;
+  background-color: #000;
+  position: fixed;
+  left: 0;
+  top: 0;
+  z-index: 99;
+
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
