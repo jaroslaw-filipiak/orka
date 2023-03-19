@@ -1,6 +1,20 @@
 // SUPERVISORS
 body.page-id-33 {
+  .page_content,
+  .page-content {
+    @include xxl {
+      padding-top: 230px !important;
+    }
+  }
   .page_content {
     min-height: 60vh;
+  }
+}
+
+@media (min-width: 801px) {
+  body.page-id-33 {
+    .page_content {
+      padding-top: 110px;
+    }
   }
 }

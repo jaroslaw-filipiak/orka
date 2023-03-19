@@ -9,6 +9,7 @@
 @import './scss/pages/news-page';
 @import './scss/pages/portfolio-page';
 @import './scss/pages/supervisors-page';
+@import './scss/pages/producers';
 
 .page-id-16,
 .page-id-104 {
@@ -34,7 +35,7 @@
 
 .page_content,
 .page-content {
-  padding-top: 60px;
+  // padding-top: 60px;
   @include xl {
     padding-top: 140px;
   }
