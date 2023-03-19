@@ -50,9 +50,7 @@ if ( ! defined( 'ABSPATH' ) ) {
 
 <script>
 window.addEventListener('DOMContentLoaded', (event) => {
-
     $('.preloader').fadeOut();
-
 });
 </script>
 
@@ -65,6 +63,8 @@ window.addEventListener('DOMContentLoaded', () => {
     });
 })
 </script>
+
+
 
 
 

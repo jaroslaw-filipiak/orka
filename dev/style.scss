@@ -46,7 +46,7 @@
 .home--lang-switcher {
   ul {
     width: 100vw;
-    height: 200px;
+    height: 150px;
     position: fixed;
     left: 0;
     top: 0;
@@ -54,6 +54,9 @@
     align-items: center;
     justify-content: flex-end;
     padding-right: 60px;
+    @include xxl {
+      height: 200px;
+    }
   }
 
   ul li a {

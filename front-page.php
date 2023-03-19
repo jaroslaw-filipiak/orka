@@ -25,7 +25,7 @@
     <div class="menu_inner">
         <?php wp_nav_menu(array('theme_location' => 'main-menu')); ?>
         <div class="home--lang-switcher">
-            <?php // echo do_shortcode('[wpml_language_switcher]') ?>
+            <?php  echo do_shortcode('[wpml_language_switcher]') ?>
         </div>
 
     </div>
