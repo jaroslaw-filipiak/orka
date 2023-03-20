@@ -81,10 +81,20 @@ body.page-id-104 {
     letter-spacing: 0.05em;
     color: white;
     margin: 0;
-
+    background: #000;
     list-style: none;
-    @media (min-width: 1400px) {
-      justify-content: flex-end;
+    width: 100vw;
+    left: 0;
+    position: fixed;
+
+    top: 55px;
+
+    @include xl {
+      top: 100px;
+    }
+
+    @include xxl {
+      top: 124px;
     }
   }
   .sticky .cats-portfolio {
@@ -126,12 +136,12 @@ body.page-id-104 {
   }
   .projects_container {
     margin: 0 auto;
-    @include xl {
-      padding: 150px 0px 0px 0px;
-    }
-    @include xxl {
-      padding: 220px 0px 0px 0px;
-    }
+    // @include xl {
+    //   padding: 150px 0px 0px 0px;
+    // }
+    // @include xxl {
+    //   padding: 220px 0px 0px 0px;
+    // }
   }
   .portfolio {
     background: black;

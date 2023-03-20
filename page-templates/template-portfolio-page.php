@@ -6,12 +6,10 @@ Template name: Portfolio
 
 ?>
 
-
-
 <?php echo do_shortcode('[elementor-template id="3795"]'); ?>
 
 <!-- cats  -->
-<div style="display: none;" class="container-fluid border" style="background-color: #000; margin-top: 150px;">
+<div class="container-fluid border" style="background-color: #000; margin-top: 150px;">
     <div class="container">
         <ul class="cats-portfolio shuffle-filter">
 
@@ -188,13 +186,16 @@ window.addEventListener('DOMContentLoaded', (event) => {
 
     });
 
+    const noImgItems = document.querySelectorAll('.dont-have-img');
+    console.log(noImgItems.length)
+
 });
 </script>
 
 
 <style>
 .dont-have-img {
-    display: none;
+    /* display: none; */
 }
 
 .project_asset a:hover img {
