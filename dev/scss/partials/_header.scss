@@ -1,6 +1,14 @@
 #orka-header {
   display: none;
 
+  padding-left: 30px;
+  padding-right: 30px;
+
+  @include lg {
+    padding-left: 60px;
+    padding-right: 60px;
+  }
+
   @include xl {
     display: block;
   }
@@ -112,6 +120,14 @@ a.slicknav_btn.slicknav_collapsed {
   #orka-header {
     background: white;
     padding: 0;
+
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+
+    @include lg {
+      padding-left: 60px !important;
+      padding-right: 60px !important;
+    }
 
     h1 {
       font-size: 20px;

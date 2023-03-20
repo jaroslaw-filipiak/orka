@@ -5,6 +5,14 @@ body.page-id-104 {
   background-color: #000 !important;
 
   #orka-header {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+
+    @include lg {
+      padding-left: 60px !important;
+      padding-right: 60px !important;
+    }
+
     padding: 0;
     .elementor-nav-menu--dropdown {
       background-color: transparent !important;
