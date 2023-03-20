@@ -92,11 +92,16 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
+    position: relative;
+    top: -39px;
+    z-index: -1;
   }
 }
 
 .a.slicknav_btn {
   background-color: #000 !important;
+  position: relative;
+  z-index: 33;
 }
 
 a.slicknav_btn.slicknav_collapsed {
