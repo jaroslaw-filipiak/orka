@@ -226,9 +226,7 @@ window.addEventListener('DOMContentLoaded', (event) => {
     background: #ff1199;
 }
 
-.page-template-template-portfolio-page .page_content {
-    padding-top: 30px;
-}
+
 
 .menu_trigger {
     border: 11px solid white;
