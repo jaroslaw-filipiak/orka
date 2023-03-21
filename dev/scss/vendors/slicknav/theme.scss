@@ -63,9 +63,9 @@ $color_hover_text: #222 !default;
     text-decoration: none;
     color: $color_text;
     &:hover {
-      -webkit-border-radius: 6px;
-      -moz-border-radius: 6px;
-      border-radius: 6px;
+      -webkit-border-radius: 0px;
+      -moz-border-radius: 0px;
+      border-radius: 0px;
       background: $color_hover_bg;
       color: $color_hover_text;
     }

@@ -4,6 +4,24 @@ body.page-id-16,
 body.page-id-104 {
   background-color: #000 !important;
 
+  .page_content,
+  .page-content {
+    padding-left: 30px;
+    padding-right: 30px;
+
+    @include lg {
+      padding-left: 60px;
+      padding-right: 60px;
+    }
+    @include xl {
+      padding-top: 40px !important;
+    }
+    @include xxl {
+      padding-top: 55px !important
+      ;
+    }
+  }
+
   #orka-header {
     padding-left: 30px !important;
     padding-right: 30px !important;
