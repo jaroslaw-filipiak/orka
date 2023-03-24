@@ -44,6 +44,11 @@ body.page-id-104 {
 
     a {
       color: #fff;
+
+      @include xl {
+        padding-left: 10px !important;
+        padding-right: 10px !important;
+      }
     }
     .elementor-item:after {
       background-color: #fff !important;
